@@ -13,7 +13,7 @@ import json
 import pandas as pd
 import pickle
 import numpy as np
-TPS_DIR = '../data/music2'
+TPS_DIR = '../data/music'
 TP_file = os.path.join(TPS_DIR, 'Digital_Music_5.json')
 
 f= open(TP_file)
@@ -80,9 +80,9 @@ test_idx[test] = True
 
 tp_test = tp_1[test_idx]
 tp_valid = tp_1[~test_idx]
-tp_train.to_csv(os.path.join(TPS_DIR, 'music2.train'), index=False,header=None)
-tp_valid.to_csv(os.path.join(TPS_DIR, 'music2.valid'), index=False,header=None)
-tp_test.to_csv(os.path.join(TPS_DIR, 'music2.test'), index=False,header=None)
+tp_train.to_csv(os.path.join(TPS_DIR, 'music_train.csv'), index=False,header=None)
+tp_valid.to_csv(os.path.join(TPS_DIR, 'music_valid.csv'), index=False,header=None)
+tp_test.to_csv(os.path.join(TPS_DIR, 'music_test.csv'), index=False,header=None)
 
 user_reviews={}
 item_reviews={}
