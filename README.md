@@ -13,11 +13,8 @@ Two models:
 
 1、DeepCoNN: This is the state-of-the-art method that uti-lizes deep learning technology to jointly model user and itemfrom textual reviews.
 
-2、DeepCoNN++: We extend DeepCoNN by changing its share layer from FM to our neural prediction layer, which are as follows.
+2、DeepCoNN++: We extend DeepCoNN by changing its share layer from FM to our neural prediction layer.
 
-$$h_{0}=(q_{u}+X_{u})\odot (p_{i}+Y_{i})$$
-
-$$\widehat{R}_{u,i}=W_{1}^{T}h_{0}+b_{u}+b_{i}+\mu$$
 
 The two methods are used as the baselines of our method **NARRE** in the paper:
 
