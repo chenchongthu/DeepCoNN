@@ -29,9 +29,11 @@ Author: Chong Chen (cstchenc@163.com)
 
 ## Environments
 
+- python 2.7
 - Tensorflow (version: 0.12.1)
 - numpy
 - pandas
+
 
 ## Dataset
 
