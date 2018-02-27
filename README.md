@@ -2,11 +2,9 @@
 
 This is our implementation for the paper:
 
-```
-Lei Zheng, Vahid Noroozi, and Philip S Yu. 2017. Joint deep modeling of users and items using reviews for recommendation.
-In WSDM. ACM, 425-434.
-```
 
+*Lei Zheng, Vahid Noroozi, and Philip S Yu. 2017. Joint deep modeling of users and items using reviews for recommendation.
+In WSDM. ACM, 425-434.*
 
 
 Two models:
@@ -18,10 +16,9 @@ Two models:
 
 The two methods are used as the baselines of our method **NARRE** in the paper:
 
-```
-Chong Chen, Min Zhang, Yiqun Liu, and Shaoping Ma. 2018. Neural Attentional Rating Regression with Review-level Explanations.
-In WWW.
-```
+
+*Chong Chen, Min Zhang, Yiqun Liu, and Shaoping Ma. 2018. [Neural Attentional Rating Regression with Review-level Explanations.](http://www.thuir.cn/group/~YQLiu/publications/WWW2018_CC.pdf) 
+In WWW'18.*
 
 **Please cite our WWW'18 paper if you use our codes. Thanks!**
 
